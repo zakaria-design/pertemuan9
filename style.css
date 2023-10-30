@@ -1,0 +1,99 @@
+.container	{
+	width: 80%;
+	margin: auto;
+	margin-top: 150px;
+}
+.judul {
+	margin: auto;
+	text-align: center;
+}
+img {
+	width: 350px;
+	transition: .9s;
+	transform: scale(1);
+}
+img:hover {
+	width: 70%;
+	transform: scale(.9);
+	margin-left: 50px;
+}
+.sub-judul {
+	font-weight: bold;
+}
+.materi {
+	margin-left: -23px;
+}
+.cabang-materi {
+	margin-left: -20px;
+}
+
+.navigation {
+	width: 100%;
+	height: 7%;
+	background-color: gray;
+	position: fixed;
+	top: 3px;
+}
+
+/*css next */
+.next {
+	width: 200px;
+	height: 30px ;
+	position: absolute;
+	top: 6px;
+	right: 30px;
+	background-color: white;
+	transform: scale(.8);
+	transition: .9s;	
+}
+.next a h4 {
+	font-size: 100%;
+	position: absolute;
+	top: -17px;
+	right: 30px;
+	transform: scale(.9);
+	transition: .9s;	
+}
+.next a h4:hover {
+	transform: scale(1);
+	color: white;
+	background-color: hotpink;
+}
+.next:hover {
+	transform: scale(1);
+	color: white;
+	background-color: hotpink;
+
+}
+
+/*css prev */
+
+.prev {
+	width: 200px;
+	height: 30px ;
+	position: absolute;
+	background-color: white;
+	transform: scale(.8);
+	transition: .9s;
+	top: 5px;
+	left: 18px;	
+}
+.prev a h4 {
+	font-size: 100%;
+	position: absolute;
+	transform: scale(.9);
+	transition: .9s;
+	top: -17px;
+	right: 35px;	
+}
+.prev a h4:hover {
+	transform: scale(1);
+	color: white;
+	background-color: hotpink;
+}
+.prev:hover {
+	transform: scale(1);
+	color: white;
+	background-color: hotpink;
+
+}
